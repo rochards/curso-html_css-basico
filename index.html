@@ -3,24 +3,25 @@
     <head>
         <meta charset="utf-8">
         <title>Curso de HTML basico</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
             <img src="imgs/ninja.png" alt="Avatar">
-            <h1>Rodrigo</h1>
+            <h1 id="title">Rodrigo</h1>
         </header>
         <section>
-            <header><h2>Posts</h2></header>
-            <article>
+            <header><h2 class="subtitle">Posts</h2></header>
+            <article class="post">
                 <header>
-                    <h3>Post #1</h3>
-                    <img src="imgs/branko-stancevic-GI1hwOGqGtE-unsplash.jpg" alt="Ilustração do post" width="600px" height="400px">
+                    <h3 class="post_title">Post #1</h3>
+                    <img src="imgs/branko-stancevic-GI1hwOGqGtE-unsplash.jpg" alt="Ilustração do post" width="100%" class="post_image">
                 </header>
-                <p>Lorem ipsum dolor sit amet, <a href="https://www.lipsum.com/" target="_blank">consectetur adipiscing elit</a> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="post_content">Lorem ipsum dolor sit amet, <a href="https://www.lipsum.com/" target="_blank">consectetur adipiscing elit</a> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </article>
         </section>
         <footer>
-            <ul>
+            <ul class="contacts_list">
                 <li>
                     <a href="mailto:rodrigo@mail.com">Email</a>
                 </li>
